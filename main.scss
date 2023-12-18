@@ -28,3 +28,8 @@ $theme-colors: (
     background-color: rgba(47,53,79,0.9);
 }
 
+.nav-underline .nav-link.active, .nav-underline .show > .nav-link {
+    color: black !important;
+    border-bottom-color: $secondary;
+}
+
