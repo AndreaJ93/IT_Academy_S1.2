@@ -168,9 +168,9 @@
     </div> 
 
   <!-- Cards -->
-    <div class="row justify-content-center g-0" style="height: 700px;">
+    <div class="row justify-content-center g-0">
 
-      <div class="col-7 col-lg-3 my-5 mx-lg-4 align-self-lg-start">
+      <div class="col-7 col-lg-3 mx-lg-4 align-self-lg-start" style="height: 640px;">
         <div class="card border-0 shadow rounded-4">
           <img src="./Imagenes/logo-chrome.svg" class="card-img-top img-fluid w-50 mx-auto my-5" alt="Chrome">
           <div class="card-body text-center">
@@ -178,13 +178,13 @@
             <p class="card-text">Minimum version 62</p>
             <img src="./Imagenes/bg-dots.svg" class="w-100">
             <div class="p-3">
-              <a href="#" class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</a>
+              <button class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-7 col-lg-3 my-5 mx-lg-4 align-self-lg-center">
+      <div class="col-7 col-lg-3 mb-5 mx-lg-4 align-self-lg-center">
         <div class="card border-0 shadow rounded-4">
           <img src="./Imagenes/logo-firefox.svg" class="card-img-top w-50 mx-auto my-5 img-fluid" alt="Firefox">
           <div class="card-body text-center">
@@ -192,7 +192,7 @@
             <p class="card-text">Minimum version 55</p>
             <img src="./Imagenes/bg-dots.svg" class="w-100">
             <div class="p-3">
-              <a href="#" class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</a>
+              <button class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</button>
             </div>
           </div>
         </div>
@@ -206,10 +206,83 @@
             <p class="card-text">Minimum version 46</p>
             <img src="./Imagenes/bg-dots.svg" class="w-100">
             <div class="p-3">
-              <a href="#" class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</a>
+              <button class="btn btn-primary w-100 py-3 mt-2">Add & Install Extension</button>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- FAQS -->
+    <div class="row justify-content-center text-center m-5">
+      <div class="col-lg-5 col-12">
+          <h2 class="m-3">Frequently Asked Questions</h2>
+          <p class="m-4 text-black-50">Here are some of our FAQs. Is you have any other questions you'd like answered please feel free to email us.</p>
+      </div>
+
+      <div class="w-100"></div>
+
+      <div class="col-lg-5 col-12">
+        <div class="accordion my-5" id="accordionExample">
+
+          <div class="accordion-item border-bottom border-top">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is Bookmark?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show text-start" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta quae omnis quos, aperiam deserunt iure eveniet. Autem pariatur dolor quod asperiores? Excepturi similique rerum quam nisi expedita unde ipsam, sequi explicabo ea delectus nobis repudiandae dolore nemo odit omnis in, cumque quis corporis modi doloremque illum consequatur. Fuga, nostrum.</p>  
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-bottom">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How can I request a new browser?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse text-start" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, in sint rem autem reprehenderit ad atque cumque deleniti illo ex. Iusto consequatur aliquid praesentium magni exercitationem amet possimus laboriosam delectus. Temporibus voluptates repellendus error fugit enim suscipit eos dolor dolorum!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-bottom">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Is there a mobile app?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse text-start" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maiores odio et excepturi, atque eaque. Hic aut iusto expedita, aliquam voluptate deleniti adipisci recusandae repellat, minus nemo error maxime dolores.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-bottom">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What about other Chromium browsers?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse text-start" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati dolor, labore dolorum explicabo consequatur impedit necessitatibus voluptate saepe ipsa, atque nesciunt eveniet eius fugit eaque placeat tempore quae omnis maiores facere quos sed minima at odit. Ab amet unde in reprehenderit aut voluptatem accusamus quibusdam qui, deserunt corporis repudiandae eos odit tempore repellendus, quidem quod sed id! Hic, facilis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+      
+      <div class="col-lg-5 col-12">
+        <button class="btn btn-primary p-2 px-3">More Info</button>
       </div>
     </div>
 
