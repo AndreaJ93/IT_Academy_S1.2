@@ -11428,4 +11428,38 @@ textarea.form-control-lg {
 .nav-underline .nav-link.active, .nav-underline .show > .nav-link {
   color: black !important;
   border-bottom-color: #FA5959;
+}
+
+.bggrey {
+  background-color: #212641;
+}
+
+.invalid-feedback {
+  width: 100%;
+  margin-top: 0px;
+  font-size: 0.9em;
+  color: white;
+  padding: 0.4rem;
+  padding-left: 0.9rem;
+  background-color: #FA5959;
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  text-align: start;
+}
+
+.was-validated .form-control:invalid {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='red' stroke='white'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='white' stroke='none'/%3e%3c/svg%3e");
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  border: 2px solid #FA5959;
+}
+
+.position {
+  position: relative;
+  top: -1rem;
+}
+
+.position-end {
+  position: relative;
+  top: 1rem;
 }/*# sourceMappingURL=main.css.map */
