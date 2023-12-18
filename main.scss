@@ -1,0 +1,30 @@
+
+
+
+$primary:#5265E1;
+$secondary: #FA5959;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+);
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+
+.btn-outline-0:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+.offcanvas {
+    background-color: rgba(47,53,79,0.9);
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1.2. Bootstrap&SASS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="">
+  <!-- Barra de navegación -->
+    <nav class="navbar bg-white fixed-top bg-white navbar-expand-lg pt-4">
+
+      <div class="container">
+
+        <div class="ps-3">
+          <a class="navbar-brand" href="#">
+            <img src="./Imagenes/logo-bookmark.svg">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse w-75 justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a class="nav-link font-monospace" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-monospace" href="#">PRICING</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-monospace" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="btn btn-secondary px-4 text-white font-monospace" href="#">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="navbar-toggler border-0 btn-outline-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span>
+            <img src="./Imagenes/icon-hamburger.svg">
+          </span>
+        </button>
+  <!-- Pantalla completa del menu de navegación -->
+        <div class="offcanvas offcanvas-top h-auto p-4 bggrey" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-theme="dark">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-4" id="offcanvasNavbarLabel"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill pb-1" viewBox="0 0 16 16">
+              <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2"/>
+            </svg> BOOKMARK</h5>
+            <button type="button" class="btn-close" data-bs-theme="dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-center d-flex d-lg-none">
+            <ul class="navbar-nav flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-white p-3 border-top fs-4" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white p-3 border-top fs-4" href="#">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white p-3 border-top border-bottom fs-4" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item m-3">
+                <a class="btn btn-dark text-white font-monospace border-3 border-white w-100 fs-4" href="#">LOGIN</a>
+              </li>
+              <div class="row h-100 align-items-end">
+                <div class="col-12">
+                  <img src="./Imagenes/icon-facebook.svg" class="m-3">
+                  <img src="./Imagenes/icon-twitter.svg" class="m-3">
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="row justify-content-lg-end justify-content-center mt-5 pt-5 g-0">
+      <div class="col-lg-4 col-8 align-self-center z-1 m-lg-0 my-5">
+          <h1 class="text-center text-lg-start">A Simple Bookmark Manager</h1>
+          <p class="text-black-50 text-center text-lg-start">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="text-center text-lg-start">
+              <button class="btn btn-primary shadow-sm m-2 px-3">Get it on Chrome</button>
+              <button class="btn btn-light shadow-sm m-2 px-3">Get it on Firefox</button>
+          </div>
+      </div>
+      <div class="col-lg-7 col-12 pt-4 ps-5 pe-0 order-lg-last order-md-first order-first position-relative align-self-end">
+          <img src="./Imagenes/illustration-hero.svg" class="img-fluid z-3">
+          <div class="position-absolute bottom-0 end-0 rounded-start-pill bg-primary w-75 h-75 z-n1"></div>
+      </div>
+    </div>
+
+    
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+</body>
+</html>
