@@ -73,3 +73,44 @@ $theme-colors: (
     position: relative;
     top: 1rem;
 }
+
+.nav-link:hover {
+    color: $secondary !important;
+}
+
+.accordion-button:hover {
+    color: $secondary;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: $secondary !important;
+    border: 2px solid $secondary;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: $primary !important;
+    border: 2px solid $primary;
+}
+
+.btn-light:hover {
+    background-color: white;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.nav-underline {
+    .nav-item {
+        .nav-link:hover {
+            color: $secondary !important;
+            border-bottom-color: transparent;
+        }
+    }
+}
+
+.imgfacebook, .imgtwitter {
+    path:hover {
+        fill: $secondary;
+    }
+} 

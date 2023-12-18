@@ -11462,4 +11462,39 @@ textarea.form-control-lg {
 .position-end {
   position: relative;
   top: 1rem;
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.accordion-button:hover {
+  color: #FA5959;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #FA5959 !important;
+  border: 2px solid #FA5959;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #5265E1 !important;
+  border: 2px solid #5265E1;
+}
+
+.btn-light:hover {
+  background-color: white;
+  color: black !important;
+  border: 2px solid black;
+}
+
+.nav-underline .nav-item .nav-link:hover {
+  color: #FA5959 !important;
+  border-bottom-color: transparent;
+}
+
+.imgfacebook path:hover, .imgtwitter path:hover {
+  fill: #FA5959;
 }/*# sourceMappingURL=main.css.map */
